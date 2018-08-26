@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "3",
+      "firstName": "The Hulk",
+      "age": 45,
+      "companyId": "1"
+    },
+    {
+      "firstName": "Captain America",
+      "age": 200,
+      "id": "IlR1W4M",
+      "companyId": "2"
+    },
+    {
+      "firstName": "Thor",
+      "age": 1500,
+      "companyId": "1",
+      "id": "Q9bOdJb"
+    },
+    {
+      "firstName": "IronMan",
+      "age": 45,
+      "companyId": "1",
+      "id": "j~3rFAq"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "iphone"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "search"
+    }
+  ]
+}
