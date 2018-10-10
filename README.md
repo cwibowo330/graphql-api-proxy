@@ -43,4 +43,10 @@ query {
     }
   }
 }
+
+mutation {
+  addUser(firstName: "Blank Panther", age: 30, companyId: "1") {
+    id
+  }
+}
 ~~~~
