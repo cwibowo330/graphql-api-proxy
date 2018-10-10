@@ -10,3 +10,37 @@ http://localhost:3000/company/1/users
 - graphql server
 http://localhost:4000/graphql
 - npm run dev 
+- npm run json:server
+
+
+## EXAMPLES:
+~~~~
+query {
+  users {
+    firstName 
+    age 
+    company {
+      id
+    }
+  }
+}
+
+query {
+  user(id: "3") {
+    firstName 
+    age 
+  }
+}
+
+query {
+  company(id: "1") {
+    id
+    name
+    description
+    users {
+      id
+      firstName
+    }
+  }
+}
+~~~~
